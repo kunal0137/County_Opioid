@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://semoss.org/ontologies/Relation/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual rdf:resource="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED"/>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/AMAT_fac/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/AMAT_fac/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/AMAT_fac/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/CDC_consult/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/CDC_consult/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/CDC_consult/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/COUNTY/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/COUNTY/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/COUNTY/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/HCVacute/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/HCVacute/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/HCVacute/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/HCVacuterate/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/HCVacuterate/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/HCVacuterate/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/HIVdiagnoses/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/HIVdiagnoses/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/HIVdiagnoses/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/HIVincidence/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/HIVincidence/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/HIVincidence/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/HIVprevalence/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/HIVprevalence/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/HIVprevalence/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/MH_fac/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/MH_fac/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/MH_fac/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_AMAT_fac/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_AMAT_fac/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Med_AMAT_fac/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_MH_fac/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_MH_fac/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Med_MH_fac/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_SA_fac/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_SA_fac/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Med_SA_fac/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_SMAT_fac/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_SMAT_fac/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Med_SMAT_fac/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_TMAT_fac/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Med_TMAT_fac/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Med_TMAT_fac/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/PLHIV/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/PLHIV/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/PLHIV/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Population/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Population/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Population/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/SA_fac/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SA_fac/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/SA_fac/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/SMAT_fac/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/SMAT_fac/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/SMAT_fac/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/STATEABBREVIATION/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/STATEABBREVIATION/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/STATEABBREVIATION/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/STATE_1/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/STATE_1/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/STATE_1/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/TMAT_fac/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/TMAT_fac/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/TMAT_fac/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/YEAR/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/YEAR/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/YEAR/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/bup_phys/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/bup_phys/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/bup_phys/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/drugdeathrate/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/drugdeathrate/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/drugdeathrate/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/drugdeathrate_est/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/drugdeathrate_est/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/drugdeathrate_est/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/drugdeaths/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/drugdeaths/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/drugdeaths/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/drugdep/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/drugdep/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/drugdep/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/mme_percap/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/mme_percap/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/mme_percap/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/nonmedpain/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/nonmedpain/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/nonmedpain/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/num_SSPs/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/num_SSPs/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/num_SSPs/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/partD30dayrxrate/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/partD30dayrxrate/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/partD30dayrxrate/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/pctunins/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/pctunins/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/pctunins/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/pctunmetneed/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/pctunmetneed/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/pctunmetneed/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/vulnerable_rank/COUNTYDATAPIVOTED"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED_UNIQUE_ROW_ID/COUNTYDATAPIVOTED">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/vulnerable_rank/COUNTYDATAPIVOTED">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/vulnerable_rank/COUNTYDATAPIVOTED"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2018:11:06 00:32:11</TIME>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTYDATAPIVOTED/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">64400</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/AMAT_fac/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">11</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/CDC_consult/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">3</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/COUNTY/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1955</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/HCVacute/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/HCVacuterate/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/HIVdiagnoses/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">456</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/HIVincidence/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">691</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/HIVprevalence/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2633</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/MH_fac/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">82</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Med_AMAT_fac/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">11</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Med_MH_fac/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">80</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Med_SA_fac/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">107</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Med_SMAT_fac/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">66</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Med_TMAT_fac/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">34</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/PLHIV/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">824</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/Population/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">19400</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SA_fac/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">149</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/SMAT_fac/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">83</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATEABBREVIATION/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">52</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/STATE_1/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">52</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TMAT_fac/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">47</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/YEAR/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">20</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/bup_phys/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">121</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/drugdeathrate/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">510</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/drugdeathrate_est/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">16</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/drugdeaths/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">340</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/drugdep/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">135</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/mme_percap/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">4733</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/nonmedpain/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">183</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/num_SSPs/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">7</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/partD30dayrxrate/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">462</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/pctunins/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">317</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/pctunmetneed/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">300</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/vulnerable_rank/COUNTYDATAPIVOTED">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">220</UNIQUE>
+</rdf:Description>
+
+</rdf:RDF>
